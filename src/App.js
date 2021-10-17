@@ -9,7 +9,7 @@ const [info, setInfo] = useState('');
 
 useEffect(()=>{
 if(text){
-  fetch(`https://kitsu.io/api/edge/anime?filter[text]=${text}`)
+  fetch(`https://kitsu.io/api/edge/anime?filter[text]=${text}&page[limit]=12`)
   .then((res) => res.json())
   .then((res)=>{setInfo(res)});
 }

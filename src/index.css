@@ -7,3 +7,6 @@
   list-style: none;
   grid-gap: 1.5rem;
 }
+.listItem img{
+  max-width: 100%;
+}
