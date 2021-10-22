@@ -34,7 +34,6 @@ padding: 1%;
   color: 	#4c324c;
 }
 
-
 .input-field{
   outline: none;
   height:30px;
@@ -44,4 +43,25 @@ padding: 1%;
   font-weight: bold;
   border-radius: 10px;
   padding: 3px 10px;
+}
+
+.btn-pagination{
+  background-color: rgb(252, 246, 246);
+  color:#4c324c;
+  margin: 2px;
+  font-weight: bold;
+  cursor:pointer;
+  border-radius: 5px;
+}
+
+.pagination__item--active {
+  background-color: thistle;
+  margin: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.list-pagination{
+  list-style: none;
+  display: flex;
 }
