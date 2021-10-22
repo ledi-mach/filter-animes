@@ -11,15 +11,15 @@ const SearchInput = ({ value, onChange }) => {
     }
     return (
         <div className='search-input'>
-            <label className="label-input">
 
+            <label className="label-input">
                 <input type="text"
                     className='input-field'
                     value={displayValue}
                     onChange={handleChange}
                     placeholder='Digite o anime aqui.' />
-
             </label>
+            
         </div>
     )
 }
