@@ -1,12 +1,47 @@
+body{
+  background-color: #cac8c8;
+  padding-right: 2%;
+}
+.App{
+text-align: center;
+}
+
+h1{
+ color: #4c324c;
+}
+
 .listItem{
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(
     auto-fit,
-    minmax( 200px, 1fr)
+    minmax(200px, 0.6fr)
   );
   list-style: none;
   grid-gap: 1.5rem;
 }
 .listItem img{
   max-width: 100%;
+}
+.item{
+border: 2px solid #324C32;
+background-color: rgb(230, 224, 224);
+border-radius: 5px;
+padding: 1%;
+}
+.title{
+  font-weight: bold;
+  color: 	#4c324c;
+}
+
+
+.input-field{
+  outline: none;
+  height:30px;
+  width: 300px;
+  color: #4c324c;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 3px 10px;
 }
